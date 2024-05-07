@@ -30,3 +30,10 @@
     BASE_DIR / 'frontend/build/static'
 ]' so that the static files are included in our Django project.
 In urls.py file of the base project, we would include the base path of our project to index.html file of the React build by writing "path('', TemplateView.as_view(template_name='index.html')),".We use TemplateView as index.html is in the template of our Django project.
+
+
+NoteList page - 
+![Screenshot (122)](https://github.com/sanyamk23/Notes/assets/124618873/9b56dfae-27af-45e8-8926-8699d37531e2)
+
+Note page by id - 
+![Screenshot (123)](https://github.com/sanyamk23/Notes/assets/124618873/48aa1aea-e70e-4b7b-8229-4c6f92343711)
